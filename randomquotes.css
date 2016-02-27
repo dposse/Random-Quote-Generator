@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	vertical-align: baseline;
+}
+
+html body {
+	background-color: #d699b8;
+}
+
+div {
+	position: relative;
+	z-index: 2;
+}
+
+.main-box {
+	position: relative;
+	margin: 10% auto auto auto;
+	width: 50%;
+	text-align: center;
+	background-color: white;
+	color: #d699b8;
+	border-radius: 5px;
+}
+
+.quote {
+	font-size: 2em;
+	padding: 50px 50px 20px 50px;
+}
+
+.quote > i.fa-quote-left {
+	padding-right: 10px;
+	font-size: .5em;
+}
+
+.quote > i.fa-quote-right {
+	padding-left: 10px;
+	font-size: .5em;
+}
+
+.quote-author {
+	font-size: 1.5em;	
+}
+
+.buttons {
+	position: relative;
+	margin-top: 40px;
+}
+
+.button {
+	border: none;
+	height: 40px;
+	padding: 10px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 5px;
+	color: white;
+	background-color: #d699b8;
+	outline: none; /* keeps buttons from having a blue outline when clicked */
+}
+
+.fa-twitter span {
+	padding-left: 8px;
+}
+
+#get-new-quote {
+	padding-top: 8px;
+}
+
+#twitter {
+	margin: 10px;
+}
+
+.footer {
+	width: 450px;
+	text-align: center;
+	display: block;
+	margin: 15px auto 30px auto;
+	color: white;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: white;
+}
